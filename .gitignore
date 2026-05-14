@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.python-version-local
+
+# Build
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project — CONTAINS A LIVE GOOGLE SESSION, NEVER COMMIT
+user_data/
+profile/
+*.profile/
+
+# Local outputs
+out*.mp4
+out*.png
+out*.jpg
+
+# Local DOM inspection dumps
+inspections/
