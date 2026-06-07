@@ -89,3 +89,9 @@ FlowBrowser (client.py)              <- high-level facade
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+---
+
+## Hub context (upwhiten-workspace)
+
+This repo is checked out as a sibling of the [`upwhiten-workspace`](../upwhiten-workspace/) hub. It is the public `munderel/flow-browser` repo with no local divergence — treat the README above as authoritative. No internal upwhiten consumers depend on it yet; the checkout is here so the hub can experiment with Veo 3.1-generated creatives in the Meta ads workflow. See [CLAUDE.md](CLAUDE.md) for the agent-side note on how this fits into upwhiten.
